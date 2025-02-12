@@ -13,14 +13,14 @@ for(initialExpresion; condition; incrementExpression)
 
 ### For of loop
 ```
-for(item of array/string)
+for(let item of array/string)
 ```
 - Use `for of` with "arrays" & "string" to get item/value from it.
 - for object cannot use directly instead `Object.keys(<obj>)` which return a array of keys.
 
 ### For in loop
 ```
-for(key in object)
+for(let key in object)
 ```
 - Use `for in` with "object" to get key from it.
 - You can use it with array to get index.
