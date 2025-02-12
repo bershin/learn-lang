@@ -1,16 +1,15 @@
 ## Simple Function
-Functions allows us to write reusable, modular code
+Functions allows us to write reusable, modular code.
 - Two parts of function "Defining" & "Running"
 - For build-in functions "Definition" ia already done for you. You have to Just run the function!
     - `"Hello".toUpperCase()`
-
-### Defining Function
+Defining Function
 ```
 function <func_name>(){
     // Some code
 }
 ```
-### Running function
+Running function
 ```
 <func_name>()
 ```
@@ -21,7 +20,7 @@ function <func_name>(){
 - Multiple parameter seperated by commas
 - Arguments not passed are "undefined" in parameter
 
-## Return Valie
+## Return Value
 - Function return value needs to be 
     - Captured as variable and printed (or)
     - Directly printed in console.log()
