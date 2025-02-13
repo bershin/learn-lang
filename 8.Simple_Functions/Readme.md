@@ -22,8 +22,8 @@ Running function
 
 ## Return Value
 - Function return value needs to be 
-    - Captured as variable and printed (or)
-    - Directly printed in console.log()
+    - Assign function to variable and printed the variable in console.log() to see the return value (or)
+    - Directly run the function in console.log() to see the return value.
     - Capturing values for function that do not return anything is `undefined`
 - Cannot return two seperate value
     - In that case return the value as string or array.
@@ -31,3 +31,4 @@ Running function
     - `"Hello".toUpperCase()`
 - Having return in middle of a function, the code after that will not execute.
     - So its good to surround returm with conditions.
+
