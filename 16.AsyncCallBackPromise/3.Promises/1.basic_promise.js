@@ -12,4 +12,3 @@ const acat = new Promise((resolve, reject) => {
     reject()
 })
 console.log(acat) // Promise { <rejected> undefined }
-
