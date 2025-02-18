@@ -32,3 +32,6 @@ Running function
 - Having return in middle of a function, the code after that will not execute.
     - So its good to surround returm with conditions.
 
+## Default Parameter
+- Default parameter needs to come at the end.
+- Order is important when it comes to multi default value

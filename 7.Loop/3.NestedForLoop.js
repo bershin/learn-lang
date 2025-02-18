@@ -1,9 +1,11 @@
+/* Nested loop with number */
 for(let i = 1; i <= 5; i++) {
     for(let j = 1; j <= i; j++) {
         console.log(i, j);
     }
 }
 
+/* Nested loop with 2D array to sum all values in it */
 const gameBoard = [
     [1, 2, 3],
     [4, 5, 6],

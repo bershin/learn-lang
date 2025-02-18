@@ -14,7 +14,7 @@ for (let letter of "Hello") {
     console.log(letter.toUpperCase());
 }
 
-// for of loop on 2d array
+// for of loop on 2d array to sum all
 const matrix = [
     [1, 2, 3],
     [4, 5, 6]
@@ -27,7 +27,7 @@ for (let row of matrix) {
 }
 console.log("Sum:", sum);
 
-// for of cannot be used in finding related index item
+// for of cannot be used in finding related index item on other array
 words1 = ["milk", "tea", "bun"]
 words2 = ["shake", "cup", "butter"]
 for(let i = 0; i < words1.length; i++) {
@@ -42,6 +42,25 @@ const person = {
 for(let key of Object.keys(person)) {
     console.log(key, person[key]);
 }
+
+// for of loop on object
+const fitbit = {
+    miles: 20,
+    age: 30
+};
+let tot = 0
+for(let val of Object.values(fitbit)) {
+    tot += val
+}
+console.log(tot)
+
+// Find index in "for of"
+const items = ["apple", "banana", "cherry"];
+
+for (const [index, value] of items.entries()) {
+    console.log(`Index: ${index}, Value: ${value}`);
+}
+
 
 // for in loop on object
 for(let key in person) {

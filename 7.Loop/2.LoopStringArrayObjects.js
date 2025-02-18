@@ -1,8 +1,9 @@
-// Reverse loop a String
+// Reverse print character in String using loop
 const fullName = "John Doe";
 for(let i = fullName.length - 1; i >= 0; i--) {
     console.log(fullName[i]);
 }
+
 
 // Loops through an array of items
 const exampleArray = [1, 2, 3, 4, 5];
@@ -10,8 +11,7 @@ for(let i = 0; i < exampleArray.length; i++) {
     console.log("Hello:", exampleArray[i]);
 }
 
-// Loops through an array of objects
-
+// Loops through an array of objects and find average,
 const students = [
     {
         name: "John",

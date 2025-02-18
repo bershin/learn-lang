@@ -13,7 +13,11 @@ for(let num = 1; num <= 10; num++) {
     console.log(`${num} x 5 = ${num*5}`);
 } 
 
-// Print reverse number
+// Print reverse number - decrement
 for(let i = 10; i > 0; i--) {
+    console.log(i);
+}
+
+for(let i = 50; i > 0; i-=10) {
     console.log(i);
 }
