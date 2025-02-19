@@ -1,0 +1,11 @@
+### Fetch
+- Newer way of making request via JS
+- Cleaner Syntax & Easier to remember.
+- Supports Promise
+- Not supported in I.E
+- Response is located in the body as "stream".
+    - Its a Readable stream of byte data. You can access & process "as you go"
+    - "response.json()" reads the stream and provide another promise.
+- Reject on only network failure for catch to encounter it.
+    - Use if condition with 'response.ok' - No catch
+    - Throw new Error(``) - Catch encounter 

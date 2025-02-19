@@ -1,0 +1,5 @@
+- Orinal way of sending request via JS
+- Do not support promises - So may need callbacks.
+- Clunky syntax and difficult to remember
+- Response doesn't needs to be XML
+- Nested is very hard 
